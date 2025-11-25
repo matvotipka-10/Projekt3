@@ -1,0 +1,1 @@
+#scraper výsledků voleb z roku 2017
