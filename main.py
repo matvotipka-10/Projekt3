@@ -123,7 +123,7 @@ def clean(text: str) -> str:
 def main():
     args = parser.parse_args()
     users_url = args.url_address
-    csv_name = args.csv_name
+    csv_name = args.csv_name + (".csv")
     print(f"Downloading data from {users_url}.")
     codes_names = get_municipality_codes_names(users_url)    
     new_url_addresses = get_new_url_addresses(users_url)    
